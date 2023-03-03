@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.bg2{
+    background-color: #fff;
+    width: 700px;
+    height: 550px;
+    border-radius: 10%;
+    box-shadow: 5px 10px black;
+    padding: 10px;
+    border: 1px solid;
+}
+.main2{
+    margin-left: 0%;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+#effects1 {
+    text-shadow: 0 6px 4px #85c226,
+		     -3px -5px 4px #fe2192,
+		     3px -5px 4px #f7c200;
+    font-size: 40px;
+    font-weight: bold;
+}
+#effects2{
+    background: #eecbb3;
+    color: #af04ff;
+    text-shadow: -1px -1px 3px #666666,
+                           1px 1px 3px #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+} 
+#effects3{
+    text-shadow:0px -15px 0 #fe2192;
+    font-size: 40px;
+    font-weight: bold;
+} 
+#effects4{
+	position: relative;
+	font-weight: bold;
+	color:rgb(255, 106, 0);
+    font-size: 40px;
+}
+#effects4 span{
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: 21;
+    background:url('../img/glossy.png');
+}
+#effects5{
+	position:relative;
+	font-weight: bold;
+	color:red;
+	background: #000;
+    font-size: 40px;
+}
+#effects5 span{
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: 21;
+    background:url('../img/grunge.png');
+}
+#effects6{
+    text-shadow: 0 0 7px #1E90FF;
+    background:#000000;
+    color: #1E90FF;
+    font-size: 40px;
+    font-weight: bold;
+} 
+.bg2-1{
+    background-color: #fff;
+    width: 1000px;
+    height: 275px;
+    border-radius: 11%;
+    box-shadow: 5px 10px black;
+    padding: 10px;
+    border: 1px solid;
+}
+.bg2-2{
+    background-color: rgb(109, 9, 136);
+    width: 978px;
+    height: 85px;
+    border-radius: 0%;
+    padding: 10px;
+    border: 1px solid;
+}
+.inline-block-element {
+    width:300px;
+    margin:5px;
+    height:58px;
+    padding:10px;
+    display:inline-block;
+    text-align:center;
+    /* border:2px solid black; */
+}
