@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#example1 {
+    background-image: url(/img/flwr.gif), url(/img/flwr.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+div {
+    display: block;
+}

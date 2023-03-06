@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.bg6{
+    background-color: #fff;
+    width: 800px;
+    height: 430px;
+    border-radius: 2%;
+    box-shadow: 5px 10px black;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.container, .row{
+    width: 100%;
+}
+
+.row::before, .row::after {
+    display: table;
+    content: "";
+}
+
+.row::after{
+    clear: both;
+}
+
+.col1, .col2, .col3{
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+    padding: 1%;
+}
