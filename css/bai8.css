@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    border: 15px;
+    border-style: solid;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    width: 700px;
+    height: 143px;
+}
+
+.two{
+    border: 15px;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    border-style: solid dotted groove double;
+    width: 700px;
+    height: 143px;
+}
+.three{
+    border: 15px;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    border-style: solid solid solid solid;
+    border-width: 5px 10px 15px 20px;
+    width: 700px;
+    height: 134px;
+}
+.four{
+    border: 15px;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    border-style: solid solid solid solid;
+    border-radius: 0px 30px 70px 20px;
+    width: 700px;
+    height: 134px;
+}
+.five{
+    font-size: 20px;
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: rgb(95, 169, 95);
+    border-radius:100px 100px 0 0 ;
+    -moz-border-radius:100px 100px 0 0 ;
+    -webkit-border-radius:100px 100px 0 0 ;
+    width: 250px;
+    height: 130px;
+}
+.six{
+    border: 7px;
+    border-radius: 20px;
+    border-style: solid solid solid solid;
+    border-color: #F7C200;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    width: 250px;
+    height: 91px;
+}
+.seven{
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius:40px 40px 60px 60px;
+    -moz-border-radius:40px 40px 60px 60px;
+    -webkit-border-radius:40px 40px 60px 60px;
+    width: 250px;
+    height: 91px;
+}
+.eight{
+    border: 7px;
+    border-style: solid solid solid solid;
+    border-color: rgb(108, 155, 177);
+    border-radius: 20px 100px 100px 20px;
+    -moz-border-radius: 20px 100px 100px 20px;
+    -webkit-border-radius: 20px 100px 100px 20px;
+    width: 250px;
+    height: 91px;
+}
+.nine{
+    background:#85C226;
+    border-width:4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    border-radius:0 120px 0 120px;
+    -moz-border-radius:0 120px 0 120px;
+    -webkit-border-radius:0 120px 0 120px;
+    width: 250px;
+    height: 91px;
+}
+button{
+    width: 200px;
+    padding:8px;
+    background-color: #427bca;
+    border-color: #357ebd;
+    color: #ffffff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+}
